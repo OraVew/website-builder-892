@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run build:nia-s-purpose-llc",
+  "outputDirectory": "dist-nia-s-purpose-llc",
+  "framework": null,
+  "devCommand": null,
+  "installCommand": "npm install",
+  "env": {
+    "VITE_BACKEND_URL": "https://unibox-backend-bc5a3bd47124.herokuapp.com",
+    "VITE_API_BASE_URL": "https://unibox-backend-bc5a3bd47124.herokuapp.com"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/nia-s-purpose-llc.html"
+    }
+  ]
+}
