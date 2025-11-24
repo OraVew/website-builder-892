@@ -1,0 +1,26 @@
+{
+  "name": "venuebox-nia-s-purpose-llc",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.nia-s-purpose-llc.config.ts",
+    "build": "vite build --config vite.nia-s-purpose-llc.config.ts",
+    "build:nia-s-purpose-llc": "vite build --config vite.nia-s-purpose-llc.config.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-helmet-async": "^2.0.5",
+    "@tanstack/react-query": "^5.56.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1",
+    "typescript": "^5.5.3"
+  }
+}
